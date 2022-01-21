@@ -68,9 +68,10 @@ body {
   .aboutMeImg {
     height : 50%;
     border-left: 3px solid #135686;
-    margin: 20px;
+    
     flex: 1 1 auto;
     max-width: 100%;
+    margin-left: 45px;
   }
 
   section {
@@ -81,3 +82,52 @@ body {
     color: #135686;
     font-weight: bold;
   }
+
+  .projects {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    border-left: 3px solid #135686;
+    margin: 20px;
+}
+
+
+ .projects div h2 {
+  color: #135686; 
+}
+
+.prjHeader {
+  color: #135686; 
+}
+
+.work {
+  margin: 10px;
+  border: 3px solid #79bcec;
+}
+
+.aboutMe, .prjHeader {
+  width: 120px;
+}
+
+.work h2 a:hover {
+ color: white;
+}
+
+.work h2 a {
+  text-decoration:  none;
+}
+
+.flex-col {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prj1 {
+  width: 100%;
+}
+
+.prj1 img {
+  width: 100%;
+  height: auto;
+}
