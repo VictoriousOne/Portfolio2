@@ -49,3 +49,35 @@ body {
     color: #e9fcfc;
     text-shadow: none;
   }
+
+  div img {
+    height: 100px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutMe {
+    height: 100%;
+    
+  }
+
+  .aboutMeImg {
+    height : 50%;
+    border-left: 3px solid #135686;
+    margin: 20px;
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+
+  section {
+    align-items: stretch;
+  }
+
+  #about-me {
+    color: #135686;
+    font-weight: bold;
+  }
