@@ -131,3 +131,27 @@ body {
   width: 100%;
   height: auto;
 }
+
+.contactHdr {
+  width: 115px;
+  display:flex;
+  flex-wrap: wrap;
+  color: #135686;
+  border-right: 3px solid #135686;
+}
+
+footer {
+  display:flex;
+  justify-content: space-between;
+  color: #135686;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.phone, .email {
+  text-decoration: underline;
+}
