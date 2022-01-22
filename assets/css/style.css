@@ -1,0 +1,157 @@
+body {
+  
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #a6dff2;
+  }
+  
+  header {
+    padding: 20px 35px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background-color: #79bcec;
+      position: -webkit-sticky;
+      position: sticky;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #135686;
+  }
+
+  header h1 {
+      color: #135686;
+      font-weight: bold;
+      font-size: 36px;
+      margin: 0;
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    color: #e9fcfc;
+    text-shadow: none;
+  }
+
+  div img {
+    height: 100px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutMe {
+    height: 100%;
+    
+  }
+
+  .aboutMeImg {
+    height : 50%;
+    border-left: 3px solid #135686;
+    
+    flex: 1 1 auto;
+    max-width: 100%;
+    margin-left: 45px;
+  }
+
+  section {
+    align-items: stretch;
+  }
+
+  #about-me {
+    color: #135686;
+    font-weight: bold;
+  }
+
+  .projects {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    border-left: 3px solid #135686;
+    margin: 20px;
+}
+
+
+ .projects div h2 {
+  color: #135686; 
+}
+
+.prjHeader {
+  color: #135686; 
+}
+
+.work {
+  margin: 10px;
+  border: 3px solid #79bcec;
+}
+
+.aboutMe, .prjHeader {
+  width: 120px;
+}
+
+.work h2 a:hover {
+ color: white;
+}
+
+.work h2 a {
+  text-decoration:  none;
+}
+
+.flex-col {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prj1 {
+  width: 100%;
+}
+
+.prj1 img {
+  width: 100%;
+  height: auto;
+}
+
+.contactHdr {
+  width: 115px;
+  display:flex;
+  flex-wrap: wrap;
+  color: #135686;
+  border-right: 3px solid #135686;
+}
+
+footer {
+  display:flex;
+  justify-content: space-between;
+  color: #135686;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.phone, .email {
+  text-decoration: underline;
+}
